@@ -7,8 +7,10 @@
         "mac2": "XXYYXXYYXXYY", 
         "mac3": "XXYYXXYYXXYY",
         "mac4": "XXYYXXYYXXYY",
-        "netif_num": "4"
-    },
+        "netif_num": "4",
+        "SataPortMap": "8",
+        "DiskIdxMap":  "00",
+        "SasIdxMap": "0"    },
     "synoinfo": {
         "maxlanport": "6"
        },
