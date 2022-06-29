@@ -6,10 +6,12 @@
         "mac1": "XXYYXXYYXXYY",
         "mac2": "XXYYXXYYXXYY", 
         "mac3": "XXYYXXYYXXYY",
-        "mac4": "XXYYXXYYXXYY"
-      
+        "mac4": "XXYYXXYYXXYY",
+        "netif_num": "4"
     },
-    "synoinfo": {},
+    "synoinfo": {
+        "maxlanport": "6"
+       },
     "ramdisk_copy": {},
     "extensions": []
 }
