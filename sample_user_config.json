@@ -3,17 +3,9 @@
         "pid": "0x0001",
         "vid": "0x46f4",
         "sn": "1234XXX123",
-        "mac1": "XXYYXXYYXXYY",
-        "mac2": "XXYYXXYYXXYY", 
-        "mac3": "XXYYXXYYXXYY",
-        "mac4": "XXYYXXYYXXYY",
-        "netif_num": "4",
-        "SataPortMap": "8",
-        "DiskIdxMap":  "00",
-        "SasIdxMap": "0"    },
-    "synoinfo": {
-        "maxlanport": "6"
-       },
+        "mac1": "XXYYXXYYXXYY"
+    },
+    "synoinfo": {},
     "ramdisk_copy": {},
     "extensions": []
 }
