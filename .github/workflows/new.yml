@@ -68,7 +68,7 @@ jobs:
           sed -i -e 's/0011323D47F7"/&,\n\t"mac2": "001132F7B050",\n\t"netif_num": 4/' ${{matrix.platform}}_user_config.json
 
           # 调整synoinfo
-          sed -i -e 's/"synoinfo": {},/"synoinfo": {\n\t"maxlanport": "6"\n    },/' ${{matrix.platform}}_user_config.json
+          sed -i -e 's/"synoinfo": {},/"synoinfo": {\n\t"maxlanport": "5"\n    },/' ${{matrix.platform}}_user_config.json
 
           cat ${{matrix.platform}}_user_config.json
 
