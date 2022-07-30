@@ -65,10 +65,10 @@ jobs:
           sed -i -e "s/1234XXX123/${sn:="155ABCD123456"}/g" -e 's/XXYYXXYYXXYY/001132123456/g' ${{matrix.platform}}_user_config.json
 
           # 添加第二张网卡mac并设置网卡数量
-          sed -i -e 's/0011323D47F7"/&,\n\t"mac2": "001132123457",\n\t"netif_num": 4/' ${{matrix.platform}}_user_config.json
+          sed -i -e 's/0011323D47F7"/&,\n\t"mac2": "001132123457",\n\t"netif_num": 6/' ${{matrix.platform}}_user_config.json
 
           # 调整synoinfo
-          sed -i -e 's/"synoinfo": {},/"synoinfo": {\n\t"maxlanport": "5"\n    },/' ${{matrix.platform}}_user_config.json
+          sed -i -e 's/"synoinfo": {},/"synoinfo": {\n\t"maxlanport": "8"\n    },/' ${{matrix.platform}}_user_config.json
 
           cat ${{matrix.platform}}_user_config.json
 
